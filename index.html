@@ -1,0 +1,85 @@
+<!DOCTYPE html> <!-- Indica que es un documento HTML, de lo contrario si no lo ponemos, lo interpretaria como codigo antiguo antes de los 90's Quirks mode, aparecerian codigos antiguos -->
+<html lang="es">
+
+<!--invoca al archivo style.css que contiene todas las configuraciones de estilos de la página-->
+<link rel="stylesheet" href="styles.css">
+
+<!--Encabezado, el valor atributo id invoca a una funcion del archivo style.css para dar el formato del menu-->
+<header id="mi-encabezado">
+    
+        
+    <title>HTML</title>
+    <!--Creacion del menú utilizando Nav-->
+    <nav>    
+        <ul>
+            <li><a href="index.html">¿Que es HTML?</a></li>
+            <li><a href="about.html">Versiones y Etiquetas de HTML</a></li>
+            <li><a href="contact.html">Enlaces</a></li>
+        </ul>
+    </nav>
+
+    <!--Texto del encabezado-->
+    <h1>HTML</h1>
+    <p>Bienvenidos</p>
+
+</header>
+
+<!--Cuerpo del HTML. Las configuraciones de estilos se encuentran en el archivo style.css-->
+<body>
+
+    <main>
+        <!--*CONFIGURACION DEL TEXTO EN EL CUERPO. El tamño y tipo de letra estan especificados en el archivo style.css*-->
+        <section class="contenido">
+            <h1>¿Que es HTML?
+            <tr><td> <hr>
+                </hr></h1>
+                <p>
+                    HTML, acrónimo en inglés de HyperText Markup Language 
+                    ('lenguaje de marcado de hipertexto'), hace referencia 
+                    al lenguaje de marcado utilizado en la creación de 
+                    páginas web. Este estándar que sirve de referencia del 
+                    software que interactúa con la elaboración de 
+                    páginas web en sus diferentes versiones. Define una estructura 
+                    básica y un código (denominado código HTML) para la 
+                    presentación de contenido de una página web, que incluye texto, 
+                    imágenes, videos, juegos, entre otros elementos. Este estándar 
+                    es gestionado por el World Wide Web Consortium (W3C) o Consorcio 
+                    WWW, una organización dedicada a la estandarización de la mayoría 
+                    de las tecnologías asociadas a la web, especialmente en 
+                    lo relacionado con su escritura e interpretación. HTML se considera 
+                    el lenguaje web más importante y su invención crucial para el 
+                    surgimiento, desarrollo y expansión de la World Wide Web (WWW).
+                </p>
+                <p>
+                    El lenguaje HTML se fundamenta en la diferenciación como filosofía 
+                    de desarrollo. Para añadir elementos externos a una página como 
+                    imágenes, vídeos o scripts, no se incrustan directamente en el 
+                    código de la página. En su lugar, se realiza una referencia a la 
+                    ubicación de cada elemento mediante texto. De este modo, la página 
+                    web contiene solamente texto, dejando al navegador web (intérprete 
+                    del código) la labor de unir todos los elementos y visualizar la 
+                    página final. Al ser un estándar, HTML pretende ser un lenguaje 
+                    que permita que cualquier página web escrita en una determinada 
+                    versión, pueda ser interpretada de manera uniforme (siguiendo el 
+                    estándar) por cualquier navegador web actualizado.
+                </p>
+                <p>
+                    HTML es un lenguaje de marcado que posibilita definir la estructura 
+                    de nuestro documento mediante etiquetas. Este lenguaje ofrece una 
+                    gran adaptabilidad, una estructuración lógica y es fácil de 
+                    interpretar tanto por humanos como por máquinas.
+                </p>
+                </td></tr>
+            
+        </section>
+    </main>
+
+    <!--Pie de pagina-->
+    <!--el atributo Class="footer" invoca a una funcion del archivo style.css para dar el formato del pie de pagina-->
+    <div class="footer">Derechos reservados por Rodrigo Avelar © 2024</div>
+    
+    <!--Invoca al archivo script.js que contiene la funcion que controla el comportamiento del menu-->
+    <script src="script.js"></script>   
+    
+</body>
+</html>
